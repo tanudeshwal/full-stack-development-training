@@ -1,0 +1,72 @@
+<htlm>
+
+    <head>
+        <title>My blog website</title>
+<style>
+    ul{
+        background-color: greenyellow;
+    }
+    </style>
+    </head>
+        <style>
+            div {
+                background-color: lightgray;
+                /*margin is the outer space of div */
+                /*padding is the inner space of div */
+                padding: 30px;
+                margin: 30px;
+                text-align: center;
+            }
+
+            body {
+                background-color: chocolate;
+            }
+
+        </style>
+</head>
+    <body>
+        <header>
+            <h1>My Blog</h1>
+        </header>
+        <nav>
+            <ul>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </ul>
+        </nav>
+        <main>
+            <div>
+                <h1 style="background-color: aquamarine;"> Blog Post Title</h1>
+                <p style="background-color: aqua;">We live in a world that moves fast—notifications buzzing, deadlines approaching, and the constant
+                    pressure to “keep up.” But lately, I’ve found myself wondering: what’s the rush?
+
+                </p>
+            </div>
+            <div>
+                <p style="background-color: aqua;">I started making small changes. Putting my phone on silent during meals. Walking instead of driving
+                    short distances. Saying “no” to things that don’t bring me peace. And guess what? Life didn’t fall
+                    apart. In fact, it started to feel a little fuller, a little quieter, and a lot more mine.
+
+                </p>
+                <div>
+                    <p style="background-color: aqua;">
+                        Slowing down doesn’t mean falling behind. It means living with intention. It’s not always easy,
+                        but it’s worth it.Want this blog to be about a specific topic (like travel, food, mental health,
+                        tech, etc.)
+
+                    </p>
+                </div>
+                <div>
+                    <h1>Another Blog Post</h1>
+                    <h2>The comfort of little things</h2>
+                    <p>In a world that moves fast, where headlines scream urgency and social media feeds overflow with
+                        noise, it's easy to overlook the quiet comfort found in life's simplest moments. Yet, often, it
+                        is not the grand achievements or dramatic milestones that bring us true peace—but the little
+                        things. The unnoticed. The everyday. The gentle.
+                    </p>
+                </div>
+                <footer>
+                    <p>© 2025 My SIMPLE BLOG</p>
+                </footer>
+    </body>
