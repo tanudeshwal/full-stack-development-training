@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Book Review - Register</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white min-h-screen">
+
+    <header class="bg-gray-800 text-white flex justify-between items-center px-6 py-4">
+        <div class="flex items-center gap-2">
+            <img src="https://cdn-icons-png.flaticon.com/512/29/29302.png" alt="logo" class="h-6 w-6">
+            <div class="text-xl font-semibold">BOOK REVIEW</div>
+        </div>
+        <div class="text-sm">Welcome</div>
+    </header>
+
+
+    <nav>
+        Home > <a href="register.html" class="underline">register.html</a>
+    </nav>
+
+    <section class="mx-10 mt-10 flex flex-col items-center">
+        <div class="bg-gray-100 text-xl p-7 rounded">
+            Msg - Welcome you on book review application
+        </div>
+    </section>
+
+    <section class="mt-10 flex justify-center">
+        <form class="space-y-5 bg-white p-6 rounded shadow-md w-96">
+            <div class="flex items-center gap-4">
+                <label for="username" class="w-24 text-right font-medium">Username:</label>
+                <input id="username" type="text" placeholder="Enter username"
+                    class="border border-gray-300 rounded p-2 w-64" />
+            </div>
+            <div class="flex items-center gap-6">
+                <label for="password" class="w-24 text-right font-medium">Password:</label>
+                <input id="password" type="password" placeholder="Enter password"
+                    class="border border-gray-300 rounded p-2 w-64" />
+            </div>
+            <div class="pl-28">
+                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer class="text-center mt-10 text-sm text-gray-600">
+        <a href="#" class="text-blue-600 hover:underline">Book Review</a>
+
+    </footer>
+
+</body>
+
+</html>
