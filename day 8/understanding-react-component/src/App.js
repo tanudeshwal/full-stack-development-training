@@ -1,0 +1,6 @@
+function App() {
+    return (
+            <h1>My App Component</h1>
+    )
+}
+export { App };

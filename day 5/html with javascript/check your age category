@@ -3,12 +3,10 @@
 <head>
 
     <script>
-        // internal javascript
-        function handleInput() {
-            // here we take input from age input field by id
-            let age = document.getElementById("age").value;
 
-            // here find the age category based on the age input 
+        function handleInput() {
+
+            let age = document.getElementById("age").value;
             let yourCategory = "";
             if (age < 18) {
                 yourCategory = "You are a minor.";
@@ -20,7 +18,6 @@
                 yourCategory = "You are a senior citizen.";
             }
 
-            // here we set the result in the p tag with id result
             document.getElementById("result").innerText = yourCategory;
         }
     </script>
@@ -30,13 +27,11 @@
 <body>
     <h1>Age checker</h1>
     <label>Enter your age</label>
-    <!-- age input field -->
+
     <input type="number" id="age" placeholder="Enter age">
     <button onclick="handleInput()">check</button>
-
-    <!-- p tag field -->
     <p id="result"></p>
+    
 </body>
-
 
 </html>
