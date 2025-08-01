@@ -4,6 +4,8 @@ import { ConditionInJsx } from './ConditionInJsx.js'
 
 import { FunctionInJsx } from './FunctionInJsx.js'
 
+import { ListRenderInJsx} from './ListRenderInJsx.js'
+
 function App() {
     return (
         <div>
@@ -15,6 +17,8 @@ function App() {
             <ConditionInJsx />
 
             <FunctionInJsx />
+
+            <ListRenderInJsx/>
 
         </div>
     )
