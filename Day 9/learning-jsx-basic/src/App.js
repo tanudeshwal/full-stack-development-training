@@ -4,7 +4,7 @@ import { ConditionInJsx } from './ConditionInJsx.js'
 
 import { FunctionInJsx } from './FunctionInJsx.js'
 
-import { ListRenderInJsx} from './ListRenderInJsx.js'
+import { RenderList } from './RenderList.js'
 
 function App() {
     return (
@@ -18,7 +18,7 @@ function App() {
 
             <FunctionInJsx />
 
-            <ListRenderInJsx/>
+            <RenderList />
 
         </div>
     )
