@@ -15,7 +15,3 @@ function Pendinglist() {
 }
 
 export { Pendinglist };
-
-
-
-
